@@ -14,7 +14,7 @@ import javassist.CtMethod;
 public class Demo01 {
 	public static void main(String[] args) throws Exception {
 		ClassPool pool=ClassPool.getDefault();
-		CtClass cc=pool.makeClass("TestJavassist.Emp");
+		CtClass cc=pool.makeClass("Emp");
 		
 		//¥¥Ω® Ù–‘
 		CtField f1=CtField.make("private int empno;",cc);
